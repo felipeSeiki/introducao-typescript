@@ -4,5 +4,5 @@ class Carro {
         return `Marca: ${this.marca}, Modelo: ${this.modelo}, Ano: ${this.ano}`
     }    
 }
-const carro = new Carro('BMW','A3',2000);
+const carro = new Carro('BMW', 'A3', 2000);
 console.log(carro.detalhes)
